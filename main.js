@@ -28,6 +28,8 @@ const catchPokemon = (pokemon) => {
     <img src="${pokemon.sprites.front_default}" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">${pokemon.name}</p>
+      <p class="card-text">${pokemon.abilities[0].ability.name}</p>
+      <p class="card-text">${pokemon.abilities[1].ability.name}</p>
     </div>
   </div>`
     document.body.append(box)
