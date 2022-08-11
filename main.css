@@ -1,0 +1,22 @@
+
+
+.body{
+    
+    background-color: rgb(93, 49, 49);
+    color: rgb(238, 112, 50);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    margin: 2%;
+    padding-left: 9.5cm;
+}
+
+.pokeball{
+    padding-left: 10.3cm;
+
+}
+
+#poke_dex{
+    padding-left: 8cm;
+}
